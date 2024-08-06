@@ -155,7 +155,7 @@ function showNotification() {
 
     // Choose the sound based on button press count
     const soundFile = happyButtonPressCount > 15 ? 'fnaf.mp3' : 'minecraftcavenoise.mp3';
-    const audio = new Audio(`./${soundFile}`);  // Add path to your sound files
+    const audio = new Audio(`${soundFile}`);  // Add path to your sound files
     audio.play();
 }
 
@@ -215,7 +215,7 @@ function showCatMessage() {
     document.body.appendChild(catImage);
 
     catImage.addEventListener('click', () => {
-        const meowSound = new Audio('./meow.mp3');  // Add the correct path to your meow sound
+        const meowSound = new Audio('meow.mp3');  // Add the correct path to your meow sound
         meowSound.play();
         
         meowSound.addEventListener('ended', () => {
