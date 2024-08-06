@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixin Hotel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Creepster">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Mixin Hotel</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2 id="About">About Mixin Hotel</h2>
+            <p>Mixin Hotel Is A Basic Hotel.</p>
+            <a href="mailto:themixinhotel@proton.me">Email</a>
+        </section>
+        <section>
+            <h2 id="Contact">Contact Us</h2>
+            <form action="https://formspree.io/f/xovadwpo" method="POST">
+                <label>
+                    Your email:
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    Your message:
+                    <textarea required name="message" id="message"></textarea>
+                </label>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <button id="getHappyButton">Get Happy</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mixin Hotel</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
