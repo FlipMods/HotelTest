@@ -154,7 +154,7 @@ function showNotification() {
     }
 
     // Choose the sound based on button press count
-    const soundFile = happyButtonPressCount > 15 < 16 ? 'fnaf.mp3' : 'minecraftcavenoise.mp3';
+    const soundFile = happyButtonPressCount > 15 < 16 ? 'fnaf.mp3' : 'minecraftcavenoise.mp3' : 'minecraftcavenoise.mp3';
     const audio = new Audio(`${soundFile}`);  // Add path to your sound files
     audio.play();
 }
